@@ -24,9 +24,9 @@ yarn lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### 页面示例
-/*![示例图片](./assets/images/page.png) */
-/*![示例图片](./assets/images/form.png) */
-/*![示例图片](./assets/images/pie.png) */
-/*![示例图片](./assets/images/bar.png) */
-/*![示例图片](./assets/images/barline.png) */
+/*![示例图片](./src/assets/images/page.png) */
+/*![示例图片](./src/assets/images/form.png) */
+/*![示例图片](./src/assets/images/pie.png) */
+/*![示例图片](./src/assets/images/bar.png) */
+/*![示例图片](./src/assets/images/barline.png) */
 
