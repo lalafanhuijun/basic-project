@@ -1,0 +1,131 @@
+
+{ 
+  "code":0,
+  "msg":"success",
+  "data":[{
+    "menuName": "基础表单组件",
+    "menuNo": "100000",
+    "pMenuNo": "",
+    "path": "demo",
+    "component": "/pages/basicCompe/demo.vue",
+    "resourceCode": "AMI-MA0103520-16",
+    "icon": "about",
+    "webUrl": "",
+    "hidden": false,
+    "hasChildren": true,
+    "children":[{
+        "menuName": "录入表单",
+        "menuNo": "100000100",
+        "pMenuNo": "100000",
+        "path": "basic-component/basic-input-form",
+        "component": "/pages/basic-component/basic-input-form.vue",
+        "icon": "about",
+        "webUrl": "",
+        "hidden": false,
+        "hasChildren": false
+      },{
+        "menuName": "搜索表单",
+        "menuNo": "100000101",
+        "pMenuNo": "100000",
+        "path": "basic-component/basic-search-form",
+        "component": "/pages/basic-component/basic-search-form.vue",
+        "icon": "about",
+        "webUrl": "",
+        "hidden": false,
+        "hasChildren": false
+      },{
+        "menuName": "表格",
+        "menuNo": "100000102",
+        "pMenuNo": "100000",
+        "path": "basic-component/basic-table",
+        "component": "/pages/basic-component/basic-table.vue",
+        "icon": "about",
+        "webUrl": "",
+        "hidden": false,
+        "hasChildren": false
+      },{
+        "menuName": "标题",
+        "menuNo": "100000103",
+        "pMenuNo": "100000",
+        "path": "basic-component/basic-title",
+        "component": "/pages/basic-component/basic-title.vue",
+        "icon": "about",
+        "webUrl": "",
+        "hidden": false,
+        "hasChildren": false
+      },{
+        "menuName": "基础页",
+        "menuNo": "100000104",
+        "pMenuNo": "100000",
+        "path": "basic-component/basic-page",
+        "component": "/pages/basic-component/basic-page.vue",
+        "icon": "about",
+        "webUrl": "",
+        "hidden": false,
+        "hasChildren": true
+      },{
+        "menuName": "基础描述信息",
+        "menuNo": "100000105",
+        "pMenuNo": "100000",
+        "path": "basic-component/basic-descriptions",
+        "component": "/pages/basic-component/basic-descriptions.vue",
+        "icon": "about",
+        "webUrl": "",
+        "hidden": false,
+        "hasChildren": true
+      }]
+  },
+  {
+    "menuName": "基础图表组件",
+    "menuNo": "100001",
+    "pMenuNo": "",
+    "path": "demo",
+    "component": "/easViews/demo/demo.vue",
+    "resourceCode": "AMI-MA0103520-16",
+    "icon": "about",
+    "webUrl": "",
+    "hidden": false,
+    "hasChildren": true,
+    "children":[{
+      "menuName": "饼图",
+      "menuNo": "100001100",
+      "pMenuNo": "100001",
+      "path": "basic-echarts/basic-echarts-pie",
+      "component": "/pages/basic-echarts/basic-echarts-pie.vue",
+      "icon": "about",
+      "webUrl": "",
+      "hidden": false,
+      "hasChildren": false
+    },{
+      "menuName": "柱状图",
+      "menuNo": "100001101",
+      "pMenuNo": "100001",
+      "path": "basic-echarts/basic-echarts-bar",
+      "component": "/pages/basic-echarts/basic-echarts-bar.vue",
+      "icon": "about",
+      "webUrl": "",
+      "hidden": false,
+      "hasChildren": false
+    },{
+      "menuName": "折线图",
+      "menuNo": "100001102",
+      "pMenuNo": "100001",
+      "path": "basic-echarts/basic-echarts-line",
+      "component": "/pages/basic-echarts/basic-echarts-line.vue",
+      "icon": "about",
+      "webUrl": "",
+      "hidden": false,
+      "hasChildren": false
+    },{
+      "menuName": "折柱混合",
+      "menuNo": "100001103",
+      "pMenuNo": "100001",
+      "path": "basic-echarts/basic-echarts-bar-line",
+      "component": "/pages/basic-echarts/basic-echarts-bar-line.vue",
+      "icon": "about",
+      "webUrl": "",
+      "hidden": false,
+      "hasChildren": false
+    }]
+  }]
+}

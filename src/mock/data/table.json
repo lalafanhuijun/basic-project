@@ -1,0 +1,15 @@
+{ 
+  "code":0,
+  "msg":"success",
+  "data":{
+    "totalCount":10,
+    "list":[
+      {"proOrgName":"北京市","porgName":"东城区","orgName":"北京市东城区供电单位","consNo":"2345653","consName":"测试用户","consNameSlot":"测试slot","consType":"高压用户","dataSource":"现场发起","barCode":"3986546336","tgNo":"1222465"},
+      {"proOrgName":"天津市","porgName":"东城区","orgName":"北京市东城区供电单位","consNo":"2345653","consName":"测试用户","consNameSlot":"测试slot","consType":"高压用户","dataSource":"现场发起","barCode":"3986546336","tgNo":"1222465"},
+      {"proOrgName":"兰州市","porgName":"东城区","orgName":"北京市东城区供电单位","consNo":"2345653","consName":"测试用户","consNameSlot":"测试slot","consType":"高压用户","dataSource":"现场发起","barCode":"3986546336","tgNo":"1222465"},
+      {"proOrgName":"无锡市","porgName":"东城区","orgName":"北京市东城区供电单位","consNo":"2345653","consName":"测试用户","consNameSlot":"测试slot","consType":"高压用户","dataSource":"现场发起","barCode":"3986546336","tgNo":"1222465"},
+      {"proOrgName":"成都市","porgName":"东城区","orgName":"北京市东城区供电单位","consNo":"2345653","consName":"测试用户","consNameSlot":"测试slot","consType":"高压用户","dataSource":"现场发起","barCode":"3986546336","tgNo":"1222465"},
+      {"proOrgName":"太原市","porgName":"东城区","orgName":"北京市东城区供电单位","consNo":"2345653","consName":"测试用户","consNameSlot":"测试slot","consType":"高压用户","dataSource":"现场发起","barCode":"3986546336","tgNo":"1222465"}
+    ]
+  }
+}

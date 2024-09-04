@@ -1,0 +1,151 @@
+
+/*基础通用样式*/
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  min-width: $--body-min-width;
+  background-color: $--background-color-gray;
+}
+.eas-tabs-page{
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+}
+.eas-wrapper{
+	height: 100%;
+	width: 100%;
+    overflow: auto;
+}
+.eas-tabs-wrapper{
+	height: calc(100% - 48px);
+	width: 100%;
+}
+.required-text {
+	padding-left: 10px;
+	position: relative;
+	line-height: 16px;
+}
+.required-text::before {
+	position: absolute;
+	font-family: "iconfont-eas";
+	content: "*";
+	left: 0;
+	color: red;
+}
+
+.el-dialog{
+	display: flex;
+    flex-direction: column;
+    max-width: calc(100% - 30px);
+    max-height: calc(100% - 30px);
+    top: 50%;
+    left: 50%;
+    margin: 0 !important;
+    transform: translate(-50%,-50%);
+	.el-dialog__body{
+		flex: 1;
+    overflow: auto;
+	}
+}
+
+// 检查人用户样式---start
+.user-item {
+	background: #f4f7f6;
+	border-radius: 100px;
+	padding: 0 14px;
+	margin-right: 16px;
+	margin-bottom: 12px;
+	.user-tag {
+		line-height: 20px;
+		height: 20px;
+		font-size: 12px;
+		background: #ffaa08;
+		border-radius: 10px;
+		padding: 0 6px;
+		color: #fff;
+		margin-left: 4px;
+	}
+	
+}
+.el-icon-remove-outline {
+	color: #ff4646;
+	margin-left: 4px;
+	cursor: pointer;
+	font-size: 16px;
+}
+.user-button {
+	background: #fff !important;
+	// color: #409EFF !important;
+}
+.el-title__defaulticon{
+	display: none;
+}
+  // 检查人用户样式---end
+
+.upload-tip{
+	color: #999999;
+	font-size: 12px;
+	line-height: 18px;
+	margin-top: 16px;
+}
+
+.el-tree-node.is-current{
+	// color: #409EFF !important;
+}
+
+.vue-treeselect__portal-target{
+	z-index: 999999 !important;
+}
+.vue-treeselect--disabled .vue-treeselect__control{
+	background-color: #F5F5F5;
+    border-color: #d9d9d9;
+	.vue-treeselect__value-container,.vue-treeselect__placeholder{
+		color: #999 !important;
+	}
+}
+.el-table--headerStripe thead tr>th:last-child:after {
+	display: none;
+}
+.eas-box-card{
+	.el-title__left > div {
+		width: 100%;
+	}
+	.page-title {
+		.el-title {
+			height: 24px;
+		}
+	}
+	.el-card__header {
+		padding: 4px 16px;
+	}
+}
+
+.default-textarea {
+	// max-width: 722px;
+	line-height: 24px;
+	background: #f0f0f0;
+	padding: 4px 12px;
+	border-radius: 4px 4px 4px 4px;
+}
+.describe-text{
+	color:#666666
+}
+.el-textarea__inner{
+	padding: 5px 15px 12px 15px;
+}
+.el-textarea .el-input__count{
+	background: transparent;
+    line-height: 12px;
+}
+// 统计单元格-不可点击
+.statistic-plaintext span {
+  cursor: inherit;
+  color: #333;
+}
+// 统计单元格-可以点击
+.statistic-clickable span {
+  cursor: pointer;
+//   color: #409EFF;
+}
