@@ -28,13 +28,13 @@ See [Configuration Reference](https://cli.vuejs.org/config/). -->
 
 ### 页面示例
 #### 基础页面
-![示例图片](https://github.com/lalafanhuijun/basic-project/src/assets/images/page.png) 
+![示例图片](https://github.com/lalafanhuijun/basic-project/blob/main/src/assets/images/page.png) 
 #### 录入表单页面
-![示例图片](https://github.com/lalafanhuijun/basic-project/src/assets/images/form.png) 
+![示例图片](https://github.com/lalafanhuijun/basic-project/blob/main/src/assets/images/form.png) 
 #### 基础饼图页面
-![示例图片](https://github.com/lalafanhuijun/basic-project/src/assets/images/pie.png) 
+![示例图片](https://github.com/lalafanhuijun/basic-project/blob/main/src/assets/images/pie.png) 
 #### 基础柱状图页面
-![示例图片](https://github.com/lalafanhuijun/basic-project/src/assets/images/bar.png) 
+![示例图片](https://github.com/lalafanhuijun/basic-project/blob/main/src/assets/images/bar.png) 
 #### 基础折柱混合页面
-![示例图片](https://github.com/lalafanhuijun/basic-project/src/assets/images/barline.png)
+![示例图片](https://github.com/lalafanhuijun/basic-project/blob/main/src/assets/images/barline.png)
 
